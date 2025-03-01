@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="styles.css">
+  <script>
+        
+  </script>
+
+</head>
+<body>
+    <div class="card">
+        <img class="card-img" src=<a data-ved="0CBYQjRxqFwoTCMDT8-yO6IsDFQAAAAAdAAAAABAE" rel="noopener" target="_blank" href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.financialexpress.com%2Fweb-stories%2Flifestyle%2Finside-prabhas-extravagant-lifestyle-a-look-at-kalki-2898-ad-actors-lavish-house-luxury-cars-and-net-worth-of-rs-241-crores%2F&amp;psig=AOvVaw1jbVVNoeE0yDrbi1vpcp-t&amp;ust=1740892105292000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBYQjRxqFwoTCMDT8-yO6IsDFQAAAAAdAAAAABAE" jsaction="focus:trigger.HTIQtd;mousedown:trigger.HTIQtd;touchstart:trigger.HTIQtd;;" class="YsLeY" role="link" tabindex="0" aria-label="Visit The Financial Express" rlhc="1"><img src="https://www.financialexpress.com/wp-content/uploads/2024/06/Prabhas-extravagant-1-1200x1440-1.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1200px; height: 421px; margin: 0px; width: 351px;" alt="Inside Prabhas' extravagant lifestyle: A look at Kalki 2898 AD actor's  lavish house, luxury cars, and net worth of Rs 241 crores" jsname="kn3ccd" aria-hidden="false"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJdj44AMqiCPzbMZA7_bYG-FLS_HMjv50bDw&amp;s" class="sFlh5c FyHeAf" alt="Inside Prabhas' extravagant lifestyle: A look at Kalki 2898 AD actor's  lavish house, luxury cars, and net worth of Rs 241 crores" jsname="JuXqh" style="max-width: 1200px; position: absolute; visibility: hidden;" data-ilt="1740805771241"><span class="UWuvyf"></span></a>
+        <h1>Brad</h1>
+        <h5>Stranger</h5>
+        <div id="btn-container">
+            <button id="remove">Unfriend</button>
+            <button id="add">Add Friend</button>
+        </div> 
+    </div>
+
+    <script>
+        var stat = document.querySelector("h5"); // Select using ID for better accuracy
+        var addFriend = document.querySelector("#add");
+        var unFriend = document.querySelector("#remove");
+
+        addFriend.addEventListener("click", function(){
+            stat.innerHTML = "Friends";
+            stat.style.color = "green";
+        });
+
+        unFriend.addEventListener("click", function(){
+            stat.innerHTML = "Stranger";
+            stat.style.color = "red";
+        });
+    </script>
+
+    <!-- <script src="./solution.js" onclick=""></script> -->
+</body>
+</html>
